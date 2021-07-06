@@ -1,0 +1,53 @@
+body {
+    background-image: url("./img/diagonal-beam-white-and-gray-tone-background-vector.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 1650px;
+    width: 1650px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.greet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greet-title {
+    font-size: 30px;
+    text-shadow: 0px 2px 3px #00000061;
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 22px;
+    padding: 1rem 3rem;
+    margin: 2rem;
+    border-radius: 5%;
+    background-color: #9c9b9b6b;
+    text-shadow: -2px 2px 2px #000000bf;
+    transition: .5s;
+
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: inset -1px 1px 20px 11px #cecece;
+}
+

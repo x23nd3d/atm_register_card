@@ -1,0 +1,27 @@
+.main-card {
+    position: absolute;
+    width: 50rem;
+    height: 35rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(#020000c7, #ffffffbf);
+}
+
+.card-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-item {
+    padding: 0.5rem;
+    margin: 1rem 1rem 0;
+    width: 20rem;
+}
+
+#card-submit {
+    display: inline-block;
+    text-align: center;
+}
